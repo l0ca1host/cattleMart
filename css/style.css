@@ -1,0 +1,380 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #EDE8F8;
+}
+header {
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  height: 60px;
+  background: #FAFBFC;
+  justify-content: space-around;
+  align-items: center;
+  color: #EDE8F8;
+  border-bottom: 2px solid #fff;
+  
+}
+
+.cattle_home {
+  height: 100%;
+  width: 100%;
+}
+.logo_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2%;
+  margin-right: 10%;
+  background-color: #EDE8F8;
+}
+ h1{
+  color: orangered;
+  font-size: 1.8em;
+  text-align: center;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 4%;
+  margin-right: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+} 
+
+.typewriter h1{
+  margin-right: 5%;
+
+ 
+  font-family: serif;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width:  0%}
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+ h3{
+  margin-top: 5%;
+  color: #696b79;
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .15em; /* Adjust as needed */
+}
+
+
+
+
+
+.action_bar {
+  margin-right: 4%;
+}
+
+.nav_bar {
+  display: flex;
+  min-width: 700px;
+  min-height: 65px;
+  justify-content: space-evenly;
+  background-color: #EDE8F8; 
+  align-items: center;
+  border-bottom: 1px solid #94969f;
+}
+.nav_bar a {
+  color: #8697C4;
+  background-color: #EDE8F8;
+  font-size: 18px;
+  letter-spacing: .3px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* padding: 24px 0; */
+  /* border-bottom: 2px solid #94969f; */
+
+  
+}
+
+.nav_bar a:hover {
+  color: lawngreen;
+  background-color: #EDE8F8;
+  /* border-bottom: 2px solid #94969f; */
+
+}
+
+
+.action_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.category_heading {
+  color: #8697C4;
+  font-size: 1.8em;
+  text-align: center;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 500;
+}
+.span{
+  color: #ff3f6c;
+}
+.sale_item {
+  width: 250px;
+}
+
+.footer_container {
+  padding: 30px 0px 40px 0px;
+  background: #ccb9f5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_column h3 {
+  color: #282c3f;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.footer_column a {
+  color: #696b79;
+  font-size: 18px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.footer_container a:hover {
+  color: lawngreen;
+  /* background-color: #EDE8F8; */
+}
+
+.copyright {
+  color: #94969f;
+  text-align: center;
+  padding: 15px;
+}
+
+.category-items, .buffallo-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.buffallo-container {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.category-items, .cow-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cow-container {
+  width: 100%;
+
+}
+
+
+.category-items, .goat-container {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.goat-container {
+  width: 100%;
+
+}
+
+.category-items, .dog-container {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.dog-container {
+  width: 100%;
+
+}
+
+.category-items, .cat-container {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cat-container {
+  width: 100%;
+
+}
+
+.item-container {
+  width: 250px ;
+  margin: 10px;
+}
+
+.item-image {
+  width: 100%;
+  height: 320px;
+  border-radius: 10px;
+
+}
+.rating {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.company-name {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  color: #7091E6;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.item-name {
+  color: #7393e8;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+  display: block;
+}
+
+.price {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #282c3f;
+  white-space: nowrap;
+}
+
+.current-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #282c3f;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.discount {
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.btn-add-bag {
+  margin-top: 8px;
+  font-size: 18px;
+  width: 100%;
+  background-color:#7091E6;
+  color: #FAFBFC;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-add-bag:hover{
+ background-color:lightgreen ;
+ 
+}
+
+
+.bag-item-count {
+  background-color: #f16565;
+  white-space: nowrap;
+  text-align:center;
+  line-height: 18px;
+  padding: 0 9px;
+  height: 20px;
+  position: relative;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+  left: 13px;
+  top: -50px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.baag{
+  margin-top: 2%;
+}
+
+.action_container {
+  text-decoration: none;
+  color: #8697C4;
+  /* padding: 10%; */
+  /* margin-top: 5%; */
+  border-bottom: wheat;
+}
+.action_container:hover{
+  color: lawngreen;
+  
+}
+
+a.action_container:link {
+  color: red;
+  color: #8697C4;
+  
+}
+.host{
+  color: orangered;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
